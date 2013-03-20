@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand);
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+body {
+    height: 100%;
+    background-color: #840;
+}
+
+#items span, #done span {
+    clear: both;
+    font-size: 2em;
+    display: block;
+    padding: 0 1em;
+    min-height: 1.5em;
+    line-height: 1.5em;
+}
+
+.active {
+    color: #004;
+}
+
+.inactive {
+    color: rgba(0, 0, 64, .5);
+}
+
+#addBtn {
+    font-size: 3em;
+    display: block;
+    padding-left: 1em;
+    height: 1em;
+    margin-top: -.25em;
+    margin-bottom: .25em;
+    color: #aaa;
+}
+
+.check {
+    float: right;
+    color: #aaa;
+}
+
+#sheet {
+    border-top: 3em solid #fff7ac;
+    padding: 1em 0;
+    background-color: #fff7ac;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 20em;
+    box-shadow: 0 .5em 1em #000;
+    background: -webkit-linear-gradient(top, #fff7ac 0, #fff7ac 96%, #88ba97 98%, #fff7ac 100%);
+    background-size: 100% 3em;
+    background-position: 0 1em;
+}
+
+input {
+    -webkit-user-select: text;
+    color: #004;
+    margin: 0 1em;
+    font-size: 2em;
+    line-height: 1.5em;
+    border: none;
+    background-color: #fffbd6;
+    width: 80%;
+}
