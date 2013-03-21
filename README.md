@@ -23,14 +23,17 @@ A web based, fully responsive shopping list app
 
 #### views:
 * (popup)
+
 * ladebildschirm
     * statisches bild
     * evtl fortschrittsbalken
+
 * log in
     * input email
     * input passwort
     * button log in
     * link registrieren
+
 * listenübersicht
     * miniaturansichten
         * klick öffnet die liste
